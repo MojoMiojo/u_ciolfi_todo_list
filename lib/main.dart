@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo_list_app/presentation/pages/todo_list/todo_list_page.dart';
 
 void main(){
-  return MainApp()
+  runApp(const MainApp());
 }
 
 class MainApp extends StatelessWidget {
